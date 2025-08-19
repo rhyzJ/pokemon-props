@@ -55,8 +55,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start; /* changed from space-between */
-  gap: 1.5rem; /* spacing between image and stats */
+  justify-content: flex-start;
+  gap: 1.5rem; 
   padding: 2rem;
   width: clamp(250px, 70%, 400px);
   background-color: var(--card-bg);
@@ -90,18 +90,18 @@ body {
   font-family: 'Luckiest Guy', var(--font-main);
   font-size: 1.8rem;
   margin: 0;
-  color: #ffcb05; /* bright yellow, like Pikachu */
-  text-shadow: 2px 2px 2px #3b4cca; /* subtle Pokémon blue shadow */
+  color: #ffcb05;
+  text-shadow: 2px 2px 2px #3b4cca;
 }
 
 .pokemon-card-container .right-section h3 {
   font-family: 'Luckiest Guy', var(--font-main);
   font-size: 0.9rem;
   margin: 0;
-  color: #3b4cca; /* darker accent color */
+  color: #3b4cca; 
   text-shadow: 1px 1px 1px #fff;
 }
-/* Responsive: stack card on smaller screens */
+
 @media (max-width: 600px) {
   .pokemon-card-container {
     flex-direction: column;
